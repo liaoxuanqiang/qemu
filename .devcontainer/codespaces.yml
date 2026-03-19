@@ -3,7 +3,7 @@ services:
     container_name: qemu
     image: ghcr.io/qemus/qemu
     environment:
-      RAM_SIZE: "half"
+      RAM_SIZE: "max"
       DISK_SIZE: "max"
       CPU_CORES: "max"
     devices:
